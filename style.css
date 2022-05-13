@@ -76,3 +76,9 @@ body{
 #changeAdvice:hover{
     box-shadow: 0 0 15px hsl(150, 100%, 66%);
 }
+@media (min-width: 1000px){
+    
+    #adviceNumber{
+        font-size: 15px;
+    }
+}
