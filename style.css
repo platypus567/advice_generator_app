@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800);
+html{
+    height: 100%;
+    
+    
+}
+body{
+    height: 100%;
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(218, 23%, 16%);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#mainDiv{
+    display: flex;
+    flex-direction: column;
+}
+#mainCard{
+    
+    background-color: hsl(217, 19%, 24%);
+    height: 275px;
+    width: 275px;
+    color: white;
+    border-radius: 15px;
+    
+}
+#adviceNumber{
+    text-align: center;
+    padding-bottom: 5px;
+    color: hsl(150, 100%, 66%);
+    
+    font-size: 11px;
+    
+}
+
+
+#btndiv{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7px;
+}
+#buttonIcon{
+    position: absolute;
+}
+#advicePar{
+    text-align: center;
+    font-size: 19px;
+    font-weight: 800;
+    
+    
+}
+#changeAdvice{
+    width: 50px;
+    height: 50px;
+    border-radius: 75px;
+    background-color: hsl(150, 100%, 66%);
+    border-color: transparent;
+    position: absolute;
+    margin-bottom: 95px;
+    
+}
+#dividerMobile{
+    padding-top: 15px;
+    
+}
+#dividerDiv{
+    display: flex;
+    justify-content: center;
+}
+#changeAdvice:hover{
+    box-shadow: 0 0 15px hsl(150, 100%, 66%);
+}
